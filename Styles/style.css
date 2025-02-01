@@ -46,7 +46,7 @@ html{
     padding-right: 15px;
     padding-top: 4px;
     padding-bottom: 4px;
-    margin-left: 147px;
+    margin-left: 435px;
 }
 /* Header Top Media Queries Started */
 @media(max-width:1366px){
@@ -94,7 +94,7 @@ html{
         padding-right: 15px;
         padding-top: 4px;
         padding-bottom: 4px;
-        margin-left: 410px;
+        margin-left: 435px;
     }
 }
 /* 1349PX SCREEN */
@@ -202,7 +202,7 @@ html{
 /* 1200PX SCREEN */
 @media(max-width:1200px){
     .header-top-parent{
-        width: 1200px;
+        width: 100vw;
         height: 52px;
         padding-left: 24px;
         padding-right: 24px;
@@ -218,6 +218,7 @@ html{
         margin-left: 0px;
         margin-right: 0px;
         display: flex;
+        gap: 10px;
         align-items: center;
     }
     .header-top-child-span{
@@ -303,3 +304,62 @@ html{
 }
 /* Header Top Media Queries Ended */
 /* Header Top Ended */
+
+/* Navbar Started */
+.logo-img{
+    width: 165px;
+}
+.nav-parent{
+    width: 1280px;
+    height: 80.41px;
+    margin-left: 34.5px;
+    margin-right: 34.5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-items-a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #666666;
+    padding: 8px;
+    margin-right: 15px;
+}
+.nav-items-a-1{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0d6db7;
+    padding: 8px;
+    margin-right: 15px;
+}
+.nav-button-1{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0d6db7;
+    color: #ffffff;
+    height: 47px;
+}
+.nav-button-2{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 1px solid #0d6db7;
+    background-color: #8dc63f;
+    color: #ffffff;
+}
+
+/* Navbar Media Queries Started */
