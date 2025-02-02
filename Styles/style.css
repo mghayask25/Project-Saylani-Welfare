@@ -315,6 +315,71 @@
         margin-bottom: 0px;
     }
 }
+/* SCREEN SIZE 1366PX */
+@media(min-width: 1366px){
+    .header-top-parent{
+        width: 1366px;
+        height: 52px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: #eeeeee;
+    }
+    .header-top-children{
+        width: 1313px;
+        height: 36px;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 1.4rem;
+        column-gap: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ul-list{
+        column-gap: 16px;
+        width:  759.02px;
+    }
+    .flag{
+        width: 135px;
+    }
+    .header-top-child-span{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .header-top-child-span-1{
+        margin-left: 0px;
+    }
+    #header-top-child-span-icon-1{
+        padding-right: 5px;
+    }
+    #header-top-child-span-icon-2{
+        padding-right: 5px;
+    }
+    #header-top-child-span-icon-3{
+        padding-right: 5px;
+    }
+    .header-top-child-img{
+        width: 20px;
+        margin-left: 5px;
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+        margin-right: 5px;
+    }
+    .header-top-child-button{
+        background-color: #ffffff;
+        color: #000000d9;
+        border: 5px;
+        border: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+}
 
 /* Header Top Media Queries Ended */
 /* Header Top Ended */
@@ -568,7 +633,7 @@ nav{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        gap: 460px;
+        gap: 130px;
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 12px;
@@ -588,6 +653,7 @@ nav{
         font-size: 1.2rem;
         color: #666666;
         font-weight: 600;
+        display: block;
     }
     .nav-items-a-1{
         text-decoration: none;
@@ -595,6 +661,7 @@ nav{
         color: #0d6db7;
         font-weight: 600;
         cursor: pointer;
+        display: block;
     }
     .button-nav{
         display: flex;
@@ -636,6 +703,83 @@ nav{
         padding-left: 15px;
     }
 }
+/* SCREEN SIZE 1366PX */
+@media(min-width:1366px){
+    nav{
+        width: 1366px;
+        height: 80.41px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .logo-img{
+        width: 200px;
+        height: 54.41px;
+    }
+    .nav-parent{
+        width: 100%;
+        height: 64.41px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 180px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .nav-logo-child{
+        height: 54.41px;
+    }
+    .nav-items-child{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    .nav-items-a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #666666;
+        font-weight: 600;
+        display: block;
+    }
+    .nav-items-a-1{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #0d6db7;
+        font-weight: 600;
+        cursor: pointer;
+        display: block;
+    }
+    .button-nav{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .nav-button-1{
+        background-color: #0d6db7;
+        height: 46px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+    .nav-button-2{
+        background-color: #8dc63f;
+        height: 46px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: 1px solid #0d6db7;
+        color: #ffffff;
+        border-radius: 5px;
+    } 
+}
+
 
 /* Navbar Media Queries End */
 /* Navbar Ended */
