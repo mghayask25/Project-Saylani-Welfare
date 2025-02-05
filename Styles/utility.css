@@ -28,6 +28,9 @@ html{
 .text-blue{
     color: #0d6db7;
 }
+.text-white{
+    color: #ffffff;
+}
 .text-lightgreen{
     color: #b6ef4933;
 }
@@ -36,6 +39,9 @@ html{
 }
 .bg-lightgreen{
     background-color: #b6ef4933;
+}
+.bg-green{
+    background-color: #8dc63f;
 }
 .padding-left-12{
     padding-left: 12px;
@@ -84,4 +90,10 @@ html{
 }
 .padding-right-30{
     padding-right: 30px;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+.margin-bottom-12{
+    margin-bottom: 12px;
 }
