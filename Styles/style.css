@@ -551,6 +551,8 @@ span{
     }
 }
 /* Main Section-1 Ended */
+
+
 /* Main Section-2 Started */
 .section-2{
     background-color: #b6ef4933;
@@ -997,6 +999,8 @@ span{
     }
 }
 /* Main Section-2 Ended */
+
+
 /* Main Section-3 Started */
 .main-2{
     max-width: 1256px;
@@ -1072,7 +1076,12 @@ span{
     }
 }
 /* Main Section-3 Ended */
+
+
 /* Main Section-4 Started */
+.row h3{
+    font-size: 30px;
+}
 .section-3{
     display: flex;
     flex-direction: column;
@@ -1105,7 +1114,7 @@ span{
     justify-content: center;
 }    
 .text-small{
-    font-size: 19px;
+    font-size: 17px;
 }
 
 @media(max-width:1280px){
@@ -1141,7 +1150,7 @@ span{
         justify-content: center;
     }    
     .text-small{
-        font-size: 19px;
+        font-size: 17px;
     }
 }
 @media(max-width:1024px){
@@ -1177,7 +1186,7 @@ span{
         justify-content: center;
     }    
     .text-small{
-        font-size: 19px;
+        font-size: 17px;
     }
 }
 @media(max-width:992px){
@@ -1214,7 +1223,7 @@ span{
         gap: 20px;
     }    
     .text-small{
-        font-size: 19px;
+        font-size: 17px;
     }
 }
 @media(max-width:768px){
@@ -1251,7 +1260,7 @@ span{
         gap: 20px;
     }    
     .text-small{
-        font-size: 19px;
+        font-size: 17px;
     }
 }
 @media(max-width:640px){
@@ -1288,7 +1297,357 @@ span{
         gap: 20px;
     }    
     .text-small{
-        font-size: 19px;
+        font-size: 17px;
     }
 }
 /* Main Section-4 Ended */
+
+
+/* Main Section-5 Started */
+.Number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.number button{
+    width: 382.66px;
+    height: 41px;
+    background-color: #8dc63f;
+    border-radius: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFFFFF;
+}
+.one-2{
+    max-width: 418.76px;
+    height: 300px;
+    background-image: url(./Font/DailyFo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.one-3{
+    max-width: 418.76px;
+    height: 300px;
+    background-image: url(./Font/VocationalTr.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.one-4{
+    max-width: 418.76px;
+    height: 300px;
+    background-image: url(./Font/SponsorIT.jfif);
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+@media(max-width:1280px){
+    .Number{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+    .number button{
+        width: 382.66px;
+        height: 41px;
+        background-color: #8dc63f;
+        border-radius: 5px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #FFFFFF;
+    }
+    .one-2{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/DailyFo.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-3{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/VocationalTr.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-4{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/SponsorIT.jfif);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:1024px){
+    .Number{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+    .number button{
+        width: 382.66px;
+        height: 41px;
+        background-color: #8dc63f;
+        border-radius: 5px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #FFFFFF;
+    }
+    .one-2{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/DailyFo.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-3{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/VocationalTr.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-4{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/SponsorIT.jfif);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:992px){
+    .Number{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+    .number button{
+        width: 382.66px;
+        height: 41px;
+        background-color: #8dc63f;
+        border-radius: 5px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #FFFFFF;
+    }
+    .one-2{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/DailyFo.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-3{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/VocationalTr.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-4{
+        max-width: 418.76px;
+        height: 300px;
+        background-image: url(./Font/SponsorIT.jfif);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:768px){
+    .Number{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+    .number button{
+        width: 382.66px;
+        height: 41px;
+        background-color: #8dc63f;
+        border-radius: 5px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #FFFFFF;
+    }
+    .one-2{
+        max-width: 616px;
+        height: 300px;
+        background-image: url(./Font/DailyFo.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-3{
+        max-width: 616px;
+        height: 300px;
+        background-image: url(./Font/VocationalTr.jpg);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-4{
+        max-width: 616px;
+        height: 300px;
+        background-image: url(./Font/SponsorIT.jfif);
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:640px){
+    .Number{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .number{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+    .number button{
+        width: 382.66px;
+        height: 41px;
+        background-color: #8dc63f;
+        border-radius: 5px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #FFFFFF;
+    }
+    .one-2{
+        max-width: 616px;
+        height: 300px;
+        background-image: url();
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-3{
+        max-width: 616px;
+        height: 300px;
+        background-image: url();
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .one-4{
+        max-width: 616px;
+        height: 300px;
+        background-image: url();
+        background-size: cover;
+        background-position: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+/* Main Section-5 Ended */
